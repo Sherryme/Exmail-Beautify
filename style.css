@@ -60,6 +60,13 @@ body {
 .bizmail_loginpanel .bizmail_column {
 	height:58px;
 }
+.bizmail_loginpanel .bizmail_column {
+	color:#aaaaaa;
+}
+.bizmail_loginpanel .bizmail_column i.fa{
+	margin-top: 10px;
+	font-size: 16px;
+}
 .bizmail_loginpanel .bizmail_column label {
 	display:block;
 	float:left;
