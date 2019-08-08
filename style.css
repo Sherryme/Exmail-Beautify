@@ -1,0 +1,108 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	overflow:hidden;
+	background-image:linear-gradient(115deg,#72abc8,#c5ffae);
+	background-size:cover;
+	font-family:'Open Sans','Helvetica Neue','Hiragino Sans GB','LiHei Pro',Arial,sans-serif;
+}
+#nav {
+	background:#fff;
+	-webkit-box-shadow:0 1px 3px rgba(26,26,26,.1);
+	box-shadow:0 1px 3px rgba(26,26,26,.1);
+	height:50px;
+	line-height:50px;
+	width:100%;
+}
+#nav a {
+	padding-left:5%;
+	color:#888888;
+	text-decoration:none;
+}
+.bizmail_loginpanel {
+	margin-top:150px;
+	font-size:12px;
+	width:340px;
+	height:auto;
+	background:#ffffff;
+	border-radius:5px;
+	box-shadow:0 10px 30px 0 rgba(0,0,0,.1);
+}
+.bizmail_LoginBox {
+	margin:-20px -30px;
+	padding:20px 30px;
+}
+@media (max-width: 360px) {
+	.bizmail_LoginBox {
+		margin-top: -60px;
+	}
+}
+.bizmail_loginpanel h3 {
+	text-align:left;
+	padding-left:20px;
+	padding-bottom:15px;
+	margin:0 0 20px 0;
+	font-size:16px;
+	font-weight:500;
+}
+.bizmail_loginpanel form {
+	margin:30;
+	padding:0;
+}
+.bizmail_loginpanel input.text {
+	font-size:12px;
+	width:200px;
+	height:30px;
+	margin:0 2px;
+}
+.bizmail_loginpanel .bizmail_column {
+	height:58px;
+}
+.bizmail_loginpanel .bizmail_column label {
+	display:block;
+	float:left;
+	width:30px;
+	height:24px;
+	line-height:24px;
+	font-size:12px;
+}
+.bizmail_loginpanel .bizmail_column .bizmail_inputArea {
+	float:left;
+	padding-left:15px;
+}
+.bizmail_inputArea input {
+	border:none;
+	border-bottom:1px solid gray;
+}
+.bizmail_loginpanel .bizmail_column span {
+	display:none;
+}
+.bizmail_loginpanel .bizmail_SubmitArea {
+	margin-left:30px;
+	clear:both;
+}
+.bizmail_loginpanel .bizmail_submitArea input {
+	background:#0099FF;
+	border:none;
+	border-radius:3px;
+	height:30px;
+	width:80% !important;
+	color:white;
+	margin-left:-40px;
+}
+.bizmail_loginpanel .bizmail_SubmitArea a {
+	color:#888888;
+	font-size:12px;
+	margin-left:5px;
+	text-decoration:none;
+	position:relative;
+	top:20px;
+	margin-left:150px;
+}
+.bizmail_loginpanel select {
+	width:110px;
+	height:20px;
+	margin:0 2px;
+}
