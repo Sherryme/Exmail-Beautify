@@ -3,4 +3,4 @@
 
 使用方法:找到index.html中的<script>标签,在`writeLoginPanel({domainlist:"sherry.cf", mode:"vertical"});`这一句中修改sherry.cf为你的域名。
   
-Demo:https://sherryme.github.io/SherryMail/
+Demo:https://sherryme.github.io/Exmail-Beautify/
